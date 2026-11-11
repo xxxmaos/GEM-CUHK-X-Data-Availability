@@ -1,0 +1,92 @@
+{
+  "verified_on": "2026-11-11",
+  "research_repository": "https://github.com/xxxmaos/AdaDebate-X-ConvNeXt",
+  "research_revision": "738be6898c390321f9781e939900323be9306fc5",
+  "research_visibility": "private",
+  "dataset_release": "https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track",
+  "local_download_revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+  "metadata": [
+    {
+      "file": ".gitattributes",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "adc2dc960ccb75e8e49fb49b9f3f840ab13760d9",
+      "download_timestamp_unix": "1783072796.7713804"
+    },
+    {
+      "file": "LICENSE",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "fb627d0fe1edec2766d645fcc00e9dadc9f007e9",
+      "download_timestamp_unix": "1783072677.7814648"
+    },
+    {
+      "file": "README.md",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "84454a525d2156256877c3cf35f8f99dbb080ec9",
+      "download_timestamp_unix": "1783072677.7679"
+    },
+    {
+      "file": "Small-Model-Track/class_mapping.csv",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "4811a5f880ed4998b9f4530ffe36d4d9ac94e8d2",
+      "download_timestamp_unix": "1783075188.02098"
+    },
+    {
+      "file": "Small-Model-Track/Testing/data/small_model_track_test.zip",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "d1b490dad87555802f213d8645ca828ed28bc94d7555f2971f11e946460db0ab",
+      "download_timestamp_unix": "1783075185.0013056"
+    },
+    {
+      "file": "Small-Model-Track/Testing/test_file/sample_submission.csv",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "02c80acac0b96b69dd1538bb92977ec27f575257",
+      "download_timestamp_unix": "1783072806.7916572"
+    },
+    {
+      "file": "Small-Model-Track/Testing/test_file/test.csv",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "32792b9c38dc0589fff7a17656f4905db5b7e569",
+      "download_timestamp_unix": "1783072797.3151038"
+    },
+    {
+      "file": "Small-Model-Track/Training/data/HAR.z04",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "e1136fe9243941b38381807a7743c9423342f0acd07f4be12bb634e2e3c08cef",
+      "download_timestamp_unix": "1783074894.4851847"
+    },
+    {
+      "file": "Small-Model-Track/Training/data/HAR.z06",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "60d73a466fc11ef43260bc7b4266adfb86567057b3a473f933546d0e3a369112",
+      "download_timestamp_unix": "1783075384.8946426"
+    },
+    {
+      "file": "Small-Model-Track/Training/data/HAR.z07",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "5dfc67f0a53293621f5f411ed8138325e189231c41dafdd978afaaf06baff008",
+      "download_timestamp_unix": "1783075913.8500173"
+    },
+    {
+      "file": "Small-Model-Track/Training/data/HAR.zip",
+      "revision": "ca37a2e9c6a06271309be03bbfbe16f29e40d8b4",
+      "etag": "33fd86a10528ced3868edd8b2a4367866d03f0bddaed9682c490ea22931ace15",
+      "download_timestamp_unix": "1783075541.865467"
+    }
+  ],
+  "local_document_sha256": {
+    "README.md": "18b4507328c091deb09bf5fb127bdf65ab637b41ea8c0460d81fefa11f920467",
+    "LICENSE": "f91f3c1aee1491a919a88cf2cdcd247532ef0d21b2b412882163ccac5ea06a03"
+  },
+  "official_project": "https://openaiotlab.github.io/CUHK-X/",
+  "official_license_commit": "515953dea50593cfee620ec8084c3f17a5c3df60",
+  "scope_audit": {
+    "tracked_files": 2121,
+    "archive_member_lists_checked": 17,
+    "media_members_found": 0
+  },
+  "unresolved": [
+    "Author-specific written permission / DUA record not checked",
+    "Full downloaded volume list and extracted-frame checksums not established",
+    "Pinned HF revision links were not retrievable by the browser tool; revision is evidenced by local download metadata"
+  ]
+}

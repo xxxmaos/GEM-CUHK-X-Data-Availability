@@ -1,0 +1,22 @@
+核验日期：2026-11-11
+
+官方项目主页：https://openaiotlab.github.io/CUHK-X/
+官方数据浏览器：https://aiot-public-dataset-cuhk-x.cuhkaiot.com/
+官方挑战赛数据说明：https://openaiotlab.github.io/CUHK-X-Challenge/dataset.html
+Small Model Track 发布页：https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track
+数据申请联系人：syjiang@ie.cuhk.edu.hk（来源为官方项目主页和 LICENSE）。
+
+访问方式：官方 LICENSE 第 5 节要求数据访问前取得所有者明确书面许可，并按 Data Use Agreement 用于非商业研究。
+因此，不应写成“无需申请、可自由使用”。此次可读取数据说明和许可，不代表成功访问数据文件；浏览器依赖动态加载，其空列表不证明数据不存在。
+是否需要额外注册、具体申请表或 DUA 签署流程，应向官方确认；本次未找到能替代书面许可要求的公开豁免。作者实际授权记录未核验。
+
+官方许可：https://github.com/openaiotlab/CUHK-X/blob/main/LICENSE
+核验时官方仓库固定版本：https://github.com/openaiotlab/CUHK-X/blob/515953dea50593cfee620ec8084c3f17a5c3df60/LICENSE
+对应下载包许可：https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track/blob/main/LICENSE
+本地包许可来源版本：https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track/blob/ca37a2e9c6a06271309be03bbfbe16f29e40d8b4/LICENSE
+
+许可名称：CUHK-X License Version 2.0。数据适用第 5 节 DUA 条款：非商业研究用途、取得明确书面许可、不得全部或部分再分发。
+第 6 节将所有者的派生标注、划分和元数据列为 CC BY-NC 4.0；该条款不能推导出原始记录或图像可以再分发，也不自动为本项目所有输出授予同一许可。
+研究使用需引用原始 CUHK-X 论文，并注明 CUHK 信息工程系 AIoT Lab。
+旧项目 README 的 MIT / CC BY 4.0 概述与 LICENSE Version 2.0 的说明存在冲突。本文件记录当前可查及本地附带条款，不作许可历史追溯效力判断。
+本新仓库仅提供自写说明和链接，不复制上游数据，不为第三方数据另行授予许可。

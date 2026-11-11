@@ -1,0 +1,21 @@
+正式名称：CUHK-X — Small Model Track。
+母数据集：CUHK-X (A Large-Scale Multimodal Dataset and Benchmarks for Human Activity Scene Understanding and Reasoning)。
+发布页：https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track
+固定版本链接：https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track/tree/ca37a2e9c6a06271309be03bbfbe16f29e40d8b4
+使用的本地包：Small-Model-Track/Training/data/HAR.* 解压后的 HAR/data。
+项目配置依据：https://github.com/xxxmaos/AdaDebate-X-ConvNeXt/blob/738be6898c390321f9781e939900323be9306fc5/cuhk_x_trustworthy_fusion/preexp_01_small_unimodal_baseline/configs/preexp_01_baseline.yaml
+版本证据：本地 Hugging Face 下载缓存的 11 个 .metadata 文件均记录修订 ca37a2e9c6a06271309be03bbfbe16f29e40d8b4，其中包含 HAR.zip、HAR.z04、HAR.z06、HAR.z07。
+限制：下载元数据确定来源修订，但没有逐帧证明当前解压文件从未修改；本次未找到全部分卷的完整下载清单。不要将它表述为整个数据目录经过完整校验。
+未查到该本地包另有正式语义版本号，因此使用发布名称及固定修订识别，不能自行编造 v1/v2。
+
+本文使用 40 类活动中的 1,046 个片段、六名受试者，使用 Depth_Color、IR 和 Thermal 三种观测。
+Depth_Color 是发布方提供的彩色化深度帧，不是原始深度测量。
+1,046/40/6 是本项目评估队列统计，不是 CUHK-X 整个数据集的规模。
+本地 HAR 训练目录不能据此标为官方匿名竞赛测试集；官方 Testing 包采用匿名测试编号。
+项目早期文档也写作 CUHK-S，但本说明优先采用已核实下载包的正式名称 Small Model Track。
+
+官方论文：Siyang Jiang et al. (2026), MobiSys '26, pp. 352–370。
+DOI：https://doi.org/10.1145/3745756.3809209
+官方引用页：https://openaiotlab.github.io/CUHK-X/#citation
+预印本：https://arxiv.org/abs/2512.07136
+出版论文年份、许可版本、数据下载修订分别是不同标识。
