@@ -1,0 +1,219 @@
+{
+  "source_repository": "https://github.com/xxxmaos/AdaDebate-X-ConvNeXt",
+  "source_snapshot_commit": "738be6898c390321f9781e939900323be9306fc5",
+  "copied_from": "local archived paper snapshots, checked against plotting manifest where available",
+  "files": [
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/main/predictions.jsonl",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/main/predictions.jsonl",
+      "sha256": "961a84282d2943091c30fea4874716e77d79e7dee5124f1ec6f686a93dd76c81"
+    },
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/main/summary.json",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/main/summary.json",
+      "sha256": "56b023b07e210971dcce230bb5af4b3cb72d42c5b085a5a7785489f30b80f70a"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/recheck_full/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/recheck_full/predictions.jsonl",
+      "sha256": "f65abf98db27abc371eb54bd784b1c46e319754a532335f4a4c403c12e1d1ebf"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/recheck_full/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/recheck_full/summary.json",
+      "sha256": "991713f681fbfedd09d7890eeef98526427342917fab38e54009357eb8024104"
+    },
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/protection/predictions.jsonl",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/protection/predictions.jsonl",
+      "sha256": "79b8d6f82f389a55dbc5723aea1b332d73423cf29863526ce4b6c1ad598c77a3"
+    },
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/protection/summary.json",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/protection/summary.json",
+      "sha256": "d67cf1f7455f93f3a5075fd331431ffe18438a9756aa38f275967568cb3ff26a"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/clean/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/clean/predictions.jsonl",
+      "sha256": "d4e5445235323c0bbab7e27ed89d935bb1ba0ebecd8a23fc29f9ef857a4b9e11"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/clean/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/clean/summary.json",
+      "sha256": "ce81f5a8eac6ffc591abf63be10854e3a51f83ba37b3c853866e0eca123f9fa6"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_depth/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_depth/predictions.jsonl",
+      "sha256": "0aab3caefe5821aa238d99165de82690307371966b3e5fdd1483c17ce1ce316b"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_depth/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_depth/summary.json",
+      "sha256": "5be027573c49914cf80f1bc42098ca5af42190a3f6bb2c7bbe2c7054a2088f36"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_ir/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_ir/predictions.jsonl",
+      "sha256": "699ec225cd55bd28f2ddabcca733882fa7c06212636eef917d4c336e715bbb30"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_ir/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_ir/summary.json",
+      "sha256": "d626d25d1561e1fb6470148de4f3d85f7393a730b7e7a69f509b2eca7c825880"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_thermal/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_thermal/predictions.jsonl",
+      "sha256": "3ec66c3d20646298de2e32640e14b3a4a3895d3c344b39ad02a5e6c18fbff90f"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/missing_thermal/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/missing_thermal/summary.json",
+      "sha256": "f2cbde7327448816190a03a942125d40cf44ab90577e9c27b2e4502678db384b"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/mismatch_ir/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/mismatch_ir/predictions.jsonl",
+      "sha256": "5c49e81628461713a537140247c0ce9f1c80c45e9efbb14d9667bbb5712c4b5f"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/mismatch_ir/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/mismatch_ir/summary.json",
+      "sha256": "ff2b19eee9d9f743560a66ca25299e029d792189a7098bbbc370563d336c72f2"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/observation_blur_light/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/observation_blur_light/predictions.jsonl",
+      "sha256": "761efe571b5865819b55281916bd11cb71877e1575d52ebcfa1dac4db0011265"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/observation_blur_light/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/observation_blur_light/summary.json",
+      "sha256": "e5b3f8cad68768d0a41e4bfa8eff589465fe7f191f33f201b61e16d6c207845d"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/observation_blur_heavy/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/observation_blur_heavy/predictions.jsonl",
+      "sha256": "13d45b13e4f74117e9ac037b8e29ede7b21e3f2ec2b23500c68f5b28eebb909c"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/robust_full/observation_blur_heavy/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/robust_full/observation_blur_heavy/summary.json",
+      "sha256": "2d15f8e7dea0230fb211ac2e5105dd54cd627af6fa6560a2a91f3031698b23fd"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/heterogeneous/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/heterogeneous/predictions.jsonl",
+      "sha256": "c71ae77689fbb18bf200b2416c7df7cf31895c77ce0b44ff2ac1ca525b4bdbf2"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/heterogeneous/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/heterogeneous/summary.json",
+      "sha256": "68ea898c1d7ee9f2f8cc2e5fe91c8c2daa979b50de06b4cd7486425e7d2a9d91"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/qwen_pair/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/qwen_pair/predictions.jsonl",
+      "sha256": "6cfd71b68cf79a81c924439d07647b804b43b8ad6f04929a1edd0c5ccdd6ab0c"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/qwen_pair/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/qwen_pair/summary.json",
+      "sha256": "e2058de1dadd91f0b90535758814e0918f76c07fb98acc9108707e8d67c97f78"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/gemma_pair/predictions.jsonl",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/gemma_pair/predictions.jsonl",
+      "sha256": "6a95c5d8b4ce85e391d1b7c411f24be133b747361558f375ad308204980d9c22"
+    },
+    {
+      "source": "completed_experiments_20261101/tables/heterogeneity/1046/gemma_pair/summary.json",
+      "destination": "analysis/completed_experiments_20261101/tables/heterogeneity/1046/gemma_pair/summary.json",
+      "sha256": "6a2941e4dcf2d8d58d5a8737793e3a400d7387681d980fd16b1fabb375d178e0"
+    },
+    {
+      "source": "completed_experiments_20261101/audit.json",
+      "destination": "analysis/completed_experiments_20261101/audit.json",
+      "sha256": "ef187ebf0d35b450e432a9402413ca98405cfb2ee542d1ab0cfe90cb874beb8f"
+    },
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/debate/summary.json",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/debate/summary.json",
+      "sha256": "bbf0e36ea67de431a01384339af8eb799f945947d736ff59453c1724e34247c9"
+    },
+    {
+      "source": "results1046_snapshot_20261030T093341Z/results/paper_suite_v1/risk/summary.json",
+      "destination": "analysis/results1046_snapshot_20261030T093341Z/results/paper_suite_v1/risk/summary.json",
+      "sha256": "4a289a2757f457a1c6fb1fbfa41fc99b33440ecf32aeacbbf0bbfb1b92a0341f"
+    },
+    {
+      "source": "figure/generate_results_figures.py",
+      "destination": "analysis/figure/generate_results_figures.py",
+      "sha256": "f46eba552f2b28f1d9537c5b78801394061be2186715a481b1776e6768db65d6"
+    },
+    {
+      "source": "figure/table_emphasis.py",
+      "destination": "analysis/figure/table_emphasis.py",
+      "sha256": "c4c74e932a65b1606192b07cc4f6f6efb229530c5986d5ea936a383d6b712e86"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/offline/predictions.jsonl",
+      "destination": "analysis/reviewer_revision_results_20261104/results/offline/predictions.jsonl",
+      "sha256": "ffa41475a32a23e269b1cfb143bc6ecee48af6438b993cf46b1ccbe990b0ef06"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/offline/summary.json",
+      "destination": "analysis/reviewer_revision_results_20261104/results/offline/summary.json",
+      "sha256": "78542894a5307e6b823336198528223eedaf7184ca089a9350a88b715ab6387c"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/offline/table.csv",
+      "destination": "analysis/reviewer_revision_results_20261104/results/offline/table.csv",
+      "sha256": "dfc97eea098c7f3fd10e5718c6b886a4e7df17b2222a3d4e7692dfd94e2c35c3"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/offline/policies.json",
+      "destination": "analysis/reviewer_revision_results_20261104/results/offline/policies.json",
+      "sha256": "0c61d364d722e06b083d5587f1adb28c0e733ebb7cabce740fa36f54cd4dde35"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/evidence/paired_predictions.jsonl",
+      "destination": "analysis/reviewer_revision_results_20261104/results/evidence/paired_predictions.jsonl",
+      "sha256": "e10878ef8184dacf5dcff7455bd141d99fa0027407585079a9a41bdc1fb3398f"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/evidence/summary.json",
+      "destination": "analysis/reviewer_revision_results_20261104/results/evidence/summary.json",
+      "sha256": "d3551e970190d4c85f9d3cd1c787178378c938cbe2e0dd82dfe4424eac2155cb"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/cost/paired_predictions.jsonl",
+      "destination": "analysis/reviewer_revision_results_20261104/results/cost/paired_predictions.jsonl",
+      "sha256": "3fa385b64fd38f117b24f1e96dd11b9c9f43ab308ca169314a081f471fc93fdc"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/cost/summary.json",
+      "destination": "analysis/reviewer_revision_results_20261104/results/cost/summary.json",
+      "sha256": "f0f2723b0e230c3d8fc0621d4e503a074e728773c1573b2d9a3a17a5186ded43"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/audit/independence_audit.json",
+      "destination": "analysis/reviewer_revision_results_20261104/results/audit/independence_audit.json",
+      "sha256": "e3cbe8a3eb2530765dbeef8f694cb8956ee48130ad75f4b6ab0bbaafb0fd37ac"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/cost/requests.jsonl",
+      "destination": "analysis/reviewer_revision_results_20261104/results/cost/request_metrics.jsonl",
+      "transformation": "allowlisted numerical accounting; errors represented as boolean; endpoint, identifiers and response text excluded",
+      "source_sha256": "c29aa38c00e5c25e14852f6f8be684c872c7bd90549687fc0b5b2a458e5def88"
+    },
+    {
+      "source": "reviewer_revision_results_20261104/results/evidence/requests.jsonl",
+      "destination": "analysis/reviewer_revision_results_20261104/results/evidence/request_metrics.jsonl",
+      "transformation": "allowlisted numerical accounting; errors represented as boolean; endpoint, identifiers and response text excluded",
+      "source_sha256": "7d070cb4f49addbb2be327256219d0fcd0d28b7104b6a557784618c24c6c83c4"
+    }
+  ]
+}

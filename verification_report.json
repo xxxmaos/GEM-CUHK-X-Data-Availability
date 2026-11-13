@@ -1,0 +1,287 @@
+{
+  "status": "passed",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "verified_files": 54,
+  "groups": {
+    "offline": {
+      "samples": 1046,
+      "arms": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accuracy": 0.40344168260038243,
+          "fixed": 0,
+          "broken": 0,
+          "net": 0,
+          "macro_f1": 0.3170869891153758,
+          "accepted": 770,
+          "accepted_correct": 368,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.4779220779220779
+        },
+        "modality_vote": {
+          "correct": 406,
+          "accuracy": 0.3881453154875717,
+          "fixed": 11,
+          "broken": 27,
+          "net": -16,
+          "macro_f1": 0.303400122142379,
+          "accepted": 770,
+          "accepted_correct": 352,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.45714285714285713
+        },
+        "initial_consensus": {
+          "correct": 445,
+          "accuracy": 0.4254302103250478,
+          "fixed": 93,
+          "broken": 70,
+          "net": 23,
+          "macro_f1": 0.362317708409724,
+          "accepted": 770,
+          "accepted_correct": 377,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.4896103896103896
+        },
+        "initial_same_guard": {
+          "correct": 454,
+          "accuracy": 0.4340344168260038,
+          "fixed": 89,
+          "broken": 57,
+          "net": 32,
+          "macro_f1": 0.36898197202828237,
+          "accepted": 770,
+          "accepted_correct": 386,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5012987012987012
+        },
+        "debate": {
+          "correct": 456,
+          "accuracy": 0.4359464627151052,
+          "fixed": 189,
+          "broken": 155,
+          "net": 34,
+          "macro_f1": 0.3611482172925959,
+          "accepted": 770,
+          "accepted_correct": 385,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5
+        },
+        "debate_rule": {
+          "correct": 486,
+          "accuracy": 0.4646271510516252,
+          "fixed": 166,
+          "broken": 102,
+          "net": 64,
+          "macro_f1": 0.37437029740145683,
+          "accepted": 770,
+          "accepted_correct": 418,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5428571428571428
+        },
+        "debate_confidence": {
+          "correct": 480,
+          "accuracy": 0.4588910133843212,
+          "fixed": 150,
+          "broken": 92,
+          "net": 58,
+          "macro_f1": 0.36314492449797464,
+          "accepted": 770,
+          "accepted_correct": 409,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5311688311688312
+        },
+        "debate_modality": {
+          "correct": 483,
+          "accuracy": 0.46175908221797324,
+          "fixed": 151,
+          "broken": 90,
+          "net": 61,
+          "macro_f1": 0.3605963628630108,
+          "accepted": 770,
+          "accepted_correct": 418,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5428571428571428
+        },
+        "initial_confidence": {
+          "correct": 451,
+          "accuracy": 0.4311663479923518,
+          "fixed": 89,
+          "broken": 60,
+          "net": 29,
+          "macro_f1": 0.3667957102465968,
+          "accepted": 770,
+          "accepted_correct": 383,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.4974025974025974
+        },
+        "initial_modality": {
+          "correct": 446,
+          "accuracy": 0.42638623326959846,
+          "fixed": 52,
+          "broken": 28,
+          "net": 24,
+          "macro_f1": 0.3321374639913256,
+          "accepted": 770,
+          "accepted_correct": 389,
+          "coverage": 0.7361376673040153,
+          "accepted_accuracy": 0.5051948051948052
+        }
+      }
+    },
+    "evidence": {
+      "samples": 120,
+      "arms": {
+        "numeric_baseline": {
+          "correct": 34,
+          "accuracy": 0.2833333333333333,
+          "fixed": 0,
+          "broken": 0,
+          "net": 0,
+          "macro_f1": 0.234011544011544,
+          "accepted": 84,
+          "accepted_correct": 30,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.35714285714285715
+        },
+        "cited_candidate": {
+          "correct": 38,
+          "accuracy": 0.31666666666666665,
+          "fixed": 16,
+          "broken": 12,
+          "net": 4,
+          "macro_f1": 0.24398490398490397,
+          "accepted": 84,
+          "accepted_correct": 30,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.35714285714285715
+        },
+        "cited_protected": {
+          "correct": 39,
+          "accuracy": 0.325,
+          "fixed": 14,
+          "broken": 9,
+          "net": 5,
+          "macro_f1": 0.27128468753468754,
+          "accepted": 84,
+          "accepted_correct": 32,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.38095238095238093
+        },
+        "clean_candidate": {
+          "correct": 39,
+          "accuracy": 0.325,
+          "fixed": 16,
+          "broken": 11,
+          "net": 5,
+          "macro_f1": 0.2663340825840826,
+          "accepted": 84,
+          "accepted_correct": 32,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.38095238095238093
+        },
+        "clean_protected": {
+          "correct": 41,
+          "accuracy": 0.3416666666666667,
+          "fixed": 16,
+          "broken": 9,
+          "net": 7,
+          "macro_f1": 0.29124930624930623,
+          "accepted": 84,
+          "accepted_correct": 34,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.40476190476190477
+        },
+        "random_candidate": {
+          "correct": 38,
+          "accuracy": 0.31666666666666665,
+          "fixed": 16,
+          "broken": 12,
+          "net": 4,
+          "macro_f1": 0.2606024531024531,
+          "accepted": 84,
+          "accepted_correct": 31,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.36904761904761907
+        },
+        "random_protected": {
+          "correct": 41,
+          "accuracy": 0.3416666666666667,
+          "fixed": 15,
+          "broken": 8,
+          "net": 7,
+          "macro_f1": 0.3028373015873016,
+          "accepted": 84,
+          "accepted_correct": 34,
+          "coverage": 0.7,
+          "accepted_accuracy": 0.40476190476190477
+        }
+      }
+    },
+    "cost": {
+      "samples": 60,
+      "arms": {
+        "numeric_baseline": {
+          "correct": 17,
+          "accuracy": 0.2833333333333333,
+          "fixed": 0,
+          "broken": 0,
+          "net": 0,
+          "macro_f1": 0.2,
+          "accepted": 46,
+          "accepted_correct": 16,
+          "coverage": 0.7666666666666667,
+          "accepted_accuracy": 0.34782608695652173
+        },
+        "debate_candidate": {
+          "correct": 25,
+          "accuracy": 0.4166666666666667,
+          "fixed": 17,
+          "broken": 9,
+          "net": 8,
+          "macro_f1": 0.29075396825396826,
+          "accepted": 46,
+          "accepted_correct": 21,
+          "coverage": 0.7666666666666667,
+          "accepted_accuracy": 0.45652173913043476
+        },
+        "debate_protected": {
+          "correct": 24,
+          "accuracy": 0.4,
+          "fixed": 13,
+          "broken": 6,
+          "net": 7,
+          "macro_f1": 0.2878373015873016,
+          "accepted": 46,
+          "accepted_correct": 20,
+          "coverage": 0.7666666666666667,
+          "accepted_accuracy": 0.43478260869565216
+        },
+        "recheck_candidate": {
+          "correct": 20,
+          "accuracy": 0.3333333333333333,
+          "fixed": 12,
+          "broken": 9,
+          "net": 3,
+          "macro_f1": 0.2345833333333333,
+          "accepted": 46,
+          "accepted_correct": 17,
+          "coverage": 0.7666666666666667,
+          "accepted_accuracy": 0.3695652173913043
+        },
+        "recheck_protected": {
+          "correct": 21,
+          "accuracy": 0.35,
+          "fixed": 10,
+          "broken": 6,
+          "net": 4,
+          "macro_f1": 0.24208333333333334,
+          "accepted": 46,
+          "accepted_correct": 18,
+          "coverage": 0.7666666666666667,
+          "accepted_accuracy": 0.391304347826087
+        }
+      }
+    }
+  }
+}

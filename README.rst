@@ -1,29 +1,65 @@
-GEM / AdaDebate-X 数据可用性说明
-================================
+GEM: reviewer results and analysis package
+=========================================
 
-本仓库只收录论文数据声明清单所需的说明、官方链接、引用和来源核验信息。
-不包含原始视频、采样帧、传感器数据、预测记录、日志、模型权重或论文正文。
-创建日期：2026-11-11。新仓库与原项目均为私有仓库，链接需要获授权账号访问。
+Public review version: v1.0-review. This package provides frozen numerical
+predictions, analysis code, generated figures, and dataset access documentation.
+No credentials or access to the private development repository are needed to
+recompute the supplied result tables and figures.
 
-五项清单
---------
+Quick start
+-----------
 
-1. 正式名称与版本：CUHK-X — Small Model Track，HAR 训练发布包；本地下载元数据记录的固定修订为 ca37a2e9c6a06271309be03bbfbe16f29e40d8b4。这不是数据集“v2.0”；Version 2.0 是许可版本。
-2. 官方入口：https://openaiotlab.github.io/CUHK-X/ ，官方数据浏览器 https://aiot-public-dataset-cuhk-x.cuhkaiot.com/ 。本地包对应的发布页为 https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track 。
-3. 访问条件：依官方数据条款，访问前须取得所有者明确书面许可；申请联系 syjiang@ie.cuhk.edu.hk。页面可浏览不等于已经取得使用许可。此仓库不声称作者已完成授权申请。
-4. 许可与限制：https://github.com/openaiotlab/CUHK-X/blob/main/LICENSE ，以及 https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track/blob/main/LICENSE 。CUHK-X License Version 2.0 的数据条款限定非商业研究并禁止全部或部分数据再分发。旧 README 中 MIT / CC BY 4.0 的说明与当前 LICENSE 不一致，不能据旧说明推断数据可以再分发。
-5. 实际提供范围：本仓库仅提供这份数据声明文档包；原研究仓库包含研究代码、逐片段预测、汇总结果、配置及部分日志/报告。没有发现已提交的原始图像或视频；详情见 PROJECT_DATA_SCOPE.txt。
+Tested with Python 3.14.3. From a clean checkout::
 
-文件
-----
+    python -m pip install -r requirements.txt
+    python verify_results.py
+    python analysis/figure/generate_results_figures.py
 
-* DATASET_INFO.txt：名称、精确下载修订、采用的任务与模态。
-* ACCESS_AND_LICENSE.txt：官方入口、申请条件、许可链接及版本区分。
-* PROJECT_DATA_SCOPE.txt：本仓库、原项目和本地数据目录的范围区别。
-* dataset_reference.bib：官方论文引用。
-* data_availability.tex：可用于稿件的英文数据声明（含中文注释）。
-* provenance.json：下载修订、ETag、文件校验、原项目提交及来源链接。
+The first command installs dependencies. The remaining commands run offline,
+without model calls, source images, checkpoints, or API keys. The verification
+checks SHA-256 file integrity and recomputes metrics for the supplementary
+offline controls (1,046 clips), evidence interventions (120 clips), and paired
+cost comparison (60 clips). The plotting script checks primary predictions,
+accuracy, macro-F1, corrections/harms, acceptance, paired bootstrap intervals,
+and AURC, then produces seven PDF/SVG/PNG figures and four LaTeX tables under
+analysis/figure/. Bootstrap uses 2,000 subject-level resamples with seed 42.
 
-原研究仓库：https://github.com/xxxmaos/AdaDebate-X-ConvNeXt
-本说明仓库：https://github.com/xxxmaos/GEM-CUHK-X-Data-Availability
-本仓库不是完整复现实验包，也不是数据集镜像。
+Files and scope
+---------------
+
+* analysis/results1046_snapshot_20261030T093341Z/: primary and guard-ablation results.
+* analysis/completed_experiments_20261101/: reinspection, robustness and model-composition results.
+* analysis/reviewer_revision_results_20261104/: simple controls, interventions and cost results.
+* analysis/figure/: executable plotting source and regenerated result artifacts.
+* DATA_DICTIONARY.txt: field meanings and interpretation.
+* bundle_provenance.json and SHA256SUMS.json: copied source provenance and release integrity.
+* verification_report.json: outcome and environment of the local reproduction check.
+* DATASET_INFO.txt, ACCESS_AND_LICENSE.txt, dataset_reference.bib: upstream dataset documentation.
+* data_availability.tex: editable manuscript availability statement.
+
+This is reproduction of analyses from frozen predictions, not end-to-end
+retraining or rerunning the multimodal agents. Original observations, sampled
+frames, model weights, response text, and full request caches are not included.
+The original development repository remains private.
+
+Interpretation
+--------------
+
+The historical 1,046-clip cohort is exploratory; source records document
+upstream subject overlap and post-observation rule selection. Recomputing fixed
+predictions does not establish independent generalization or repeated-run
+stability. Subset cost measurements concern only the paired 60-clip experiment.
+See the supplied independence audit and original summary boundary fields.
+
+Dataset access
+--------------
+
+CUHK-X -- Small Model Track (HAR training release).
+Official project: https://openaiotlab.github.io/CUHK-X/
+Release: https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track
+License: https://huggingface.co/datasets/Kevin-Pal/CUHK-X_Small_Model_Track/blob/main/LICENSE
+Original data must be obtained from its owners under their access conditions.
+This repository is not a mirror of CUHK-X and does not grant rights to its data.
+
+Repository: https://github.com/xxxmaos/GEM-CUHK-X-Data-Availability
+Frozen release: https://github.com/xxxmaos/GEM-CUHK-X-Data-Availability/releases/tag/v1.0-review

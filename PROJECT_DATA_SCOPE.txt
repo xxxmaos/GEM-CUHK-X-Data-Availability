@@ -1,25 +1,4 @@
-A. 当前新仓库
-仅包含数据来源、版本、访问条件、许可和提供范围的说明，以及 BibTeX、LaTeX 声明、来源校验记录。
-不包含视频、原始/采样图像、传感器数据、预测、日志、处理后张量或模型权重。
-
-B. 原研究仓库
-地址：https://github.com/xxxmaos/AdaDebate-X-ConvNeXt
-核验提交：738be6898c390321f9781e939900323be9306fc5
-可见性：private；未向未授权读者公开。论文不能把私有链接称为所有读者均可直接访问的公开数据。
-GitHub 文件树包含 2121 个文件对象。
-发现研究脚本、配置、JSON/JSONL 结果、CSV、部分日志及打包报告。
-对远程文件树与对应本地 17 个 tar.gz/zip 包的成员名称进行检查，未发现 png/jpg/jpeg/mp4/avi/webm 原始媒体成员；这是文件名与归档成员检查，不是对任意格式二进制内容的取证。
-代码里出现本地数据路径不代表数据随仓库提供。
-
-逐片段预测实例：
-https://github.com/xxxmaos/AdaDebate-X-ConvNeXt/blob/738be6898c390321f9781e939900323be9306fc5/cuhk_x_trustworthy_fusion/preexp_05_evidence_token_construction/paper/completed_experiments_20261101/tables/heterogeneity/1046/gemma_pair/predictions.jsonl
-https://github.com/xxxmaos/AdaDebate-X-ConvNeXt/blob/738be6898c390321f9781e939900323be9306fc5/cuhk_x_trustworthy_fusion/preexp_05_evidence_token_construction/paper/completed_experiments_20261101/tables/heterogeneity/1046/heterogeneous/predictions.jsonl
-https://github.com/xxxmaos/AdaDebate-X-ConvNeXt/blob/738be6898c390321f9781e939900323be9306fc5/cuhk_x_trustworthy_fusion/preexp_05_evidence_token_construction/paper/completed_experiments_20261101/tables/heterogeneity/1046/qwen_pair/predictions.jsonl
-
-结果补充包：
-https://github.com/xxxmaos/AdaDebate-X-ConvNeXt/tree/738be6898c390321f9781e939900323be9306fc5/cuhk_x_trustworthy_fusion/preexp_05_evidence_token_construction/paper/reviewer_revision_results_20261104
-其中的报告与请求记录不等同于完整模型调用缓存，也不应自动视为原始观测。
-
-C. 仅在本地的数据
-data/CUHK-X_Small_Model_Track 下的源数据用于实验，没有复制至本说明仓库。
-读者应按官方授权流程取得数据，不能从本说明仓库下载原始视频或采样帧。
+Current public reviewer package: numerical predictions, archived summaries, selected numerical request counters, analysis/plotting source, generated figures/tables, provenance, and dataset access documentation. See README.rst for exact reproduction commands and boundaries.
+Excluded: original video, sampled frames, sensor arrays, pretrained weights, prompts/responses, complete request caches, manuscript source and local environment credentials.
+The original development repository https://github.com/xxxmaos/AdaDebate-X-ConvNeXt remains private. This public package supports independent checking of calculations from frozen predictions; it does not provide end-to-end model retraining or new inference.
+CUHK-X is distributed by its owners under the conditions linked in ACCESS_AND_LICENSE.txt. Its license is not replaced by this release. Historical provenance.json describes the initial documentation-only snapshot; bundle_provenance.json describes this expanded review package.

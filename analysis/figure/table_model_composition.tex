@@ -1,0 +1,17 @@
+\begin{table*}[pos=t]
+\caption{Controlled observer-model composition on 1,046 clips. All variants use the same distinct observer-role prompts and text auditor. These prompts differ from the primary experiment. Protocol failures are report counts shared by both guard settings, not additional failures caused by protection. Bold highlights accuracy, macro-F1, and harms with the proposed protection in each assignment; it does not indicate the best model assignment.}
+\label{tab:model_composition}
+\centering\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Observer configuration & Acc. (\%) & Macro-F1 (\%) & Corrections & Harms & Failures \\
+\midrule
+Heterogeneous: Unprotected & 41.68 & 34.59 & 174 & 160 & 14 \\
+\textbf{Heterogeneous: Rule guard} & \textbf{45.22} & \textbf{36.43} & 154 & \textbf{103} & 14 \\
+Qwen pair: Unprotected & 41.49 & 35.14 & 193 & 181 & 7 \\
+\textbf{Qwen pair: Rule guard} & \textbf{45.51} & \textbf{36.67} & 180 & \textbf{126} & 7 \\
+Gemma pair: Unprotected & 31.64 & 25.83 & 111 & 202 & 21 \\
+\textbf{Gemma pair: Rule guard} & \textbf{35.95} & \textbf{29.58} & 104 & \textbf{150} & 21 \\
+\bottomrule
+\end{tabular}
+\end{table*}

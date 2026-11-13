@@ -1,0 +1,18 @@
+\begin{table*}[pos=t]
+\caption{Accuracy under seven input conditions, each with 1,046 clips. Differences compare the rule guard with the same-condition numerical baseline. Intervals use subject-clustered resampling; all differences and interval bounds are in percentage points. Bold highlights the proposed rule guard and its change from the numerical baseline, including the negative change under heavy blur.}
+\label{tab:results_robustness}
+\centering\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Condition & Baseline (\%) & Unprotected (\%) & Rule guard (\%) & Difference & 95\% interval \\
+\midrule
+Complete & 40.34 & 43.59 & \textbf{46.46} & \textbf{+6.12} & [+2.03, +10.49] \\
+Missing depth & 40.54 & 41.59 & \textbf{44.65} & \textbf{+4.11} & [-0.002, +8.62] \\
+Missing IR & 29.35 & 37.28 & \textbf{41.01} & \textbf{+11.66} & [+7.19, +14.98] \\
+Missing thermal & 34.89 & 36.52 & \textbf{39.67} & \textbf{+4.78} & [+1.48, +8.75] \\
+IR clip mismatch & 23.42 & 27.72 & \textbf{29.92} & \textbf{+6.50} & [+1.47, +11.61] \\
+Light observation blur & 40.34 & 39.20 & \textbf{43.12} & \textbf{+2.77} & [-1.08, +7.11] \\
+Heavy observation blur & 40.34 & 32.12 & \textbf{38.62} & \textbf{-1.72} & [-5.32, +1.95] \\
+\bottomrule
+\end{tabular}
+\end{table*}

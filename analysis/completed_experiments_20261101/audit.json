@@ -1,0 +1,380 @@
+{
+  "checked_at": "2026-11-01T19:21:18.585513+08:00",
+  "groups": [
+    {
+      "group": "heterogeneity/1046/qwen_pair",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "debate": {
+          "correct": 434,
+          "accepted": 770,
+          "accepted_correct": 370
+        },
+        "debate_rule": {
+          "correct": 476,
+          "accepted": 770,
+          "accepted_correct": 412
+        }
+      },
+      "review_files": 1046,
+      "protocol_failure_reports": 7,
+      "predictions_sha256": "928fed249eff4c99534dd0320fa3efb146259081fb3174388572b4493a361667"
+    },
+    {
+      "group": "heterogeneity/1046/heterogeneous",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "debate": {
+          "correct": 436,
+          "accepted": 770,
+          "accepted_correct": 371
+        },
+        "debate_rule": {
+          "correct": 473,
+          "accepted": 770,
+          "accepted_correct": 409
+        }
+      },
+      "review_files": 1046,
+      "protocol_failure_reports": 14,
+      "predictions_sha256": "346fa4f98fd71904de96af9cf9ecb1ec2718d2b3eef1506a79da2855562c0a52"
+    },
+    {
+      "group": "heterogeneity/1046/gemma_pair",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "debate": {
+          "correct": 331,
+          "accepted": 770,
+          "accepted_correct": 291
+        },
+        "debate_rule": {
+          "correct": 376,
+          "accepted": 770,
+          "accepted_correct": 336
+        }
+      },
+      "review_files": 1046,
+      "protocol_failure_reports": 21,
+      "predictions_sha256": "922d65eba9136606ca38c7b0eb87b4623f5b583c27d56973af80b0dedb2ad06e"
+    },
+    {
+      "group": "robust_full/observation_blur_heavy",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "direct": {
+          "correct": 362,
+          "accepted": 770,
+          "accepted_correct": 317
+        },
+        "direct_rule": {
+          "correct": 403,
+          "accepted": 770,
+          "accepted_correct": 359
+        },
+        "debate": {
+          "correct": 336,
+          "accepted": 770,
+          "accepted_correct": 296
+        },
+        "debate_rule": {
+          "correct": 404,
+          "accepted": 770,
+          "accepted_correct": 362
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "8ce200e5aeec6728ae3911a337f7b2ebe8519b499029bd994706ede42a1028c6"
+    },
+    {
+      "group": "robust_full/clean",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "direct": {
+          "correct": 424,
+          "accepted": 770,
+          "accepted_correct": 356
+        },
+        "direct_rule": {
+          "correct": 451,
+          "accepted": 770,
+          "accepted_correct": 383
+        },
+        "debate": {
+          "correct": 456,
+          "accepted": 770,
+          "accepted_correct": 385
+        },
+        "debate_rule": {
+          "correct": 486,
+          "accepted": 770,
+          "accepted_correct": 418
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "15d31e2634711a413092aa38dbd8015b9c58e1a7adcb9e39e6c665e54b00a5e0"
+    },
+    {
+      "group": "robust_full/missing_depth",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 424,
+          "accepted": 813,
+          "accepted_correct": 390
+        },
+        "direct": {
+          "correct": 413,
+          "accepted": 813,
+          "accepted_correct": 371
+        },
+        "direct_rule": {
+          "correct": 434,
+          "accepted": 813,
+          "accepted_correct": 392
+        },
+        "debate": {
+          "correct": 435,
+          "accepted": 813,
+          "accepted_correct": 381
+        },
+        "debate_rule": {
+          "correct": 467,
+          "accepted": 813,
+          "accepted_correct": 412
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "0a5156f4c5a504a1504914f8bb68eb7cb08803ca64af9c0b6d66ba5ceadd09e0"
+    },
+    {
+      "group": "robust_full/mismatch_ir",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 245,
+          "accepted": 720,
+          "accepted_correct": 208
+        },
+        "direct": {
+          "correct": 275,
+          "accepted": 720,
+          "accepted_correct": 219
+        },
+        "direct_rule": {
+          "correct": 279,
+          "accepted": 720,
+          "accepted_correct": 223
+        },
+        "debate": {
+          "correct": 290,
+          "accepted": 720,
+          "accepted_correct": 221
+        },
+        "debate_rule": {
+          "correct": 313,
+          "accepted": 720,
+          "accepted_correct": 243
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "508e036bf3787b3a1932a3b5f2bb8a872065e96cd9162bc5b7fa5f3348f7ca7c"
+    },
+    {
+      "group": "robust_full/observation_blur_light",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "direct": {
+          "correct": 419,
+          "accepted": 770,
+          "accepted_correct": 353
+        },
+        "direct_rule": {
+          "correct": 440,
+          "accepted": 770,
+          "accepted_correct": 374
+        },
+        "debate": {
+          "correct": 410,
+          "accepted": 770,
+          "accepted_correct": 345
+        },
+        "debate_rule": {
+          "correct": 451,
+          "accepted": 770,
+          "accepted_correct": 386
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "a9c8253ebc9d26f5f792d30404d4b41ca5e598e5d649ad5742b25bca9c3959bb"
+    },
+    {
+      "group": "robust_full/missing_thermal",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 365,
+          "accepted": 865,
+          "accepted_correct": 341
+        },
+        "direct": {
+          "correct": 370,
+          "accepted": 865,
+          "accepted_correct": 342
+        },
+        "direct_rule": {
+          "correct": 393,
+          "accepted": 865,
+          "accepted_correct": 365
+        },
+        "debate": {
+          "correct": 382,
+          "accepted": 865,
+          "accepted_correct": 348
+        },
+        "debate_rule": {
+          "correct": 415,
+          "accepted": 865,
+          "accepted_correct": 382
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "a007268dac204d8c7176bb5731119bfb240fdbe5398742d98a16ac3ebda06f97"
+    },
+    {
+      "group": "robust_full/missing_ir",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 307,
+          "accepted": 723,
+          "accepted_correct": 266
+        },
+        "direct": {
+          "correct": 363,
+          "accepted": 723,
+          "accepted_correct": 305
+        },
+        "direct_rule": {
+          "correct": 381,
+          "accepted": 723,
+          "accepted_correct": 323
+        },
+        "debate": {
+          "correct": 390,
+          "accepted": 723,
+          "accepted_correct": 313
+        },
+        "debate_rule": {
+          "correct": 429,
+          "accepted": 723,
+          "accepted_correct": 351
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "2f5adcba33fb7257b3ab224f48583e625c98f2f93b9793ae23ea18b41677f6ef"
+    },
+    {
+      "group": "recheck_full",
+      "samples": 1046,
+      "metrics": {
+        "numeric_baseline": {
+          "correct": 422,
+          "accepted": 770,
+          "accepted_correct": 368
+        },
+        "qwen": {
+          "correct": 444,
+          "accepted": 770,
+          "accepted_correct": 374
+        },
+        "gemma": {
+          "correct": 328,
+          "accepted": 770,
+          "accepted_correct": 287
+        },
+        "consensus": {
+          "correct": 445,
+          "accepted": 770,
+          "accepted_correct": 377
+        },
+        "direct": {
+          "correct": 424,
+          "accepted": 770,
+          "accepted_correct": 356
+        },
+        "debate": {
+          "correct": 456,
+          "accepted": 770,
+          "accepted_correct": 385
+        },
+        "direct_rule": {
+          "correct": 451,
+          "accepted": 770,
+          "accepted_correct": 383
+        },
+        "debate_rule": {
+          "correct": 486,
+          "accepted": 770,
+          "accepted_correct": 418
+        },
+        "independent_recheck": {
+          "correct": 437,
+          "accepted": 770,
+          "accepted_correct": 374
+        },
+        "independent_recheck_rule": {
+          "correct": 468,
+          "accepted": 770,
+          "accepted_correct": 405
+        }
+      },
+      "review_files": 0,
+      "protocol_failure_reports": null,
+      "predictions_sha256": "e20f936dc90edee5f7ba9afe8d11024c77f3fa2fceaa6e35cd91ba0067fb9916"
+    }
+  ],
+  "json_files_checked": 150487,
+  "issues": [],
+  "note": "Recorded protocol failures are retained as outcomes; quarantined historical corrupt files excluded.",
+  "frozen_source_checks": "passed",
+  "heterogeneity_protocol_failure_fallback_checks": "passed",
+  "regression_tests_passed": 13
+}

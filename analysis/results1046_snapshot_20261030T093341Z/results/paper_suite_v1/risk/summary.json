@@ -1,0 +1,33 @@
+{
+  "arms": {
+    "numeric_baseline": {
+      "aurc": 0.36643234136050706,
+      "rejected": 276,
+      "rejected_correct": 54,
+      "score": "original numeric confidence",
+      "tie_break": "key ascending"
+    },
+    "anchored_three_agent": {
+      "aurc": 0.4270889479912652,
+      "rejected": 276,
+      "rejected_correct": 71,
+      "score": "original numeric confidence",
+      "tie_break": "key ascending"
+    },
+    "rule_balanced": {
+      "aurc": 0.3285952097219852,
+      "rejected": 276,
+      "rejected_correct": 68,
+      "score": "original numeric confidence",
+      "tie_break": "key ascending"
+    },
+    "learned_balanced": {
+      "aurc": 0.3335971192875514,
+      "rejected": 276,
+      "rejected_correct": 68,
+      "score": "original numeric confidence",
+      "tie_break": "key ascending"
+    }
+  },
+  "note": "Same original numeric confidence ranking for all methods. No claim of calibrated final Agent probabilities. Empirical curves are descriptive; operating threshold unchanged."
+}

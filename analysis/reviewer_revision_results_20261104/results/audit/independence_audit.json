@@ -1,0 +1,20 @@
+{
+  "status": "BLOCKED_FOR_INDEPENDENT_GENERALIZATION",
+  "samples": 1046,
+  "test_subjects": [
+    "user16",
+    "user19",
+    "user21",
+    "user22",
+    "user5",
+    "user7"
+  ],
+  "upstream_subject_overlap": [
+    "user21"
+  ],
+  "source": "/home/admin/AdaDebate-X-ConvNeXt/cuhk_x_trustworthy_fusion/preexp_05_evidence_token_construction/results/convnext_outer_full_20261008_110320/fold0_visual/manifest.json",
+  "source_sha": "dbb53a83eeb0bd76282f850199c84ff99b2d7f540cd8a4673c8f934bf7ff0ed7",
+  "scope": "Conservative union of recorded upstream stages; not an exhaustive audit of all historical development.",
+  "boundary": "Existing 1046 cohort repeatedly inspected; upstream subject overlap. Exploratory evaluation, not independent cross-subject validation. Rule guard chosen after observing full results; report frozen learned guard too.",
+  "required": "New test manifest, full training/calibration/development provenance, fixed checkpoint-produced probabilities, and frames. Do not relabel the historical cohort as independent."
+}
